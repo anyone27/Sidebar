@@ -4,5 +4,4 @@ let sidebarToggle = document.getElementById('js-sidebar-toggle');
 
 sidebarToggle.addEventListener('click', function() {
     sidebar.classList.toggle('active');
-    console.log(sidebar.classList.contains('active'));
 });
